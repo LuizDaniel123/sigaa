@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.header`
     display: flex;
     flex-direction: column;
-    height: 9rem;
+    height: 20%;
     width: 98%;
 
     div#div-titulo {
