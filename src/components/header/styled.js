@@ -4,7 +4,7 @@ const Container = styled.header`
     display: flex;
     flex-direction: column;
     height: 9rem;
-    width: 100%;
+    width: 98%;
 
     div#div-titulo {
         background-color: #404E82 ;
