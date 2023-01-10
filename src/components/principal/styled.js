@@ -52,9 +52,16 @@ const Container = styled.div`
     div#div-form {
         align-items: center;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         height: 30%;
         width: 100%;
+
+        h1 {
+            color: #003395;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
 
         form {
             align-items: center;
@@ -62,24 +69,22 @@ const Container = styled.div`
             border: 3px solid #C8D5EC;
             display: flex;
             justify-content: center;
-            flex-direction: column;
-            height: 100%;
-            width: 48.33%;
+            height: 20%;
+            width: 80%;
 
             input {
                 background-color: rgb(232, 240, 254);
                 border: 2px solid #AAA;
-                height: 10%;
-                margin-top: 15px;
+                height: 30%;
+                margin-left: 20px;
+            }
+
+            input:nth-child(3) {
+                height: 50%;
             }
 
             label {
-                margin-top: 10px;
-            }
-
-            h1 {
-                font-size: 25px;
-                color: #003395;
+                margin-left: 20px;
             }
 
         }
