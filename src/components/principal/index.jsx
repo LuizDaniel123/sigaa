@@ -41,9 +41,9 @@ export default function Principal() {
 
         <div id='div-form'>
 
-            <form>
+            <h1>Entrar no Sistema</h1>
 
-                <h1>Entrar no Sistema</h1>
+            <form>
                 
                 <label>Usuário: </label>
 
