@@ -59,6 +59,37 @@ export default function Principal() {
 
         </div>
 
+        <div id='duas-div'>
+
+            <div>
+
+                <p>Professor ou Funcionário,</p>
+                <p>caso ainda não possua cadastro no SIGAA,</p>
+                <p>clique no link abaixo.</p>
+                <p>Cadastre-se</p>
+
+            </div>
+
+            <div>
+
+                <p>Aluno,</p>
+                <p>caso ainda não possua cadastro no SIGAA,</p>
+                <p>clique no link abaixo.</p>
+                <p>Cadastre-se</p>
+
+            </div>
+
+        </div>
+
+        <div id='dois-p-footer'>
+            <p>Este sistema é melhor visualizado utilizando o Mozilla Firefox, para baixá-lo e instalá-lo, clique aqui.</p>
+            <p>Para visualizar documentos é necessário utilizar o Adobe Reader, para baixá-lo e instalá-lo, clique aqui.</p>
+        </div>
+
+        <div id='footer-div'>
+            <p>Diretoria Sistêmica de Gestão de Tecnologia da Informação - DSGTI - IFAC | Copyright © 2006-2023 - UFRN - celacanto.ifac.edu.br.srv3inst1 - v4.0.341 09/01/2023 22:30</p>
+        </div>
+
     </Container>
   )
 }
